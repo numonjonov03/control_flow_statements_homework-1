@@ -27,7 +27,7 @@ def main(a,b,c):
         s+=1
     else:
         k+=1
-    if s>k:
+    if s<k:
         return "there are a lot of positive numbers"
     else:
         return "there are a lot of negative numbers"
