@@ -13,11 +13,14 @@ def main(a):
     """
     if a//100==0:
         if a%2==0:
-            return "two-digit odd number"
-        else:
             return "two-digit even number"
+        else:
+            return "two-digit odd number"
     else:
         if a%2==0:
             return "three-digit even number"
         else:
             return "three-digit odd number"
+
+
+print(main(58))
